@@ -6,7 +6,7 @@ protocol P
     var pVar: Self.Number { get }
 }
 
-extension P // OPTIONAL but kinda important: where Self.Number == Int
+extension P
 {
     var pVar: Double { 100.0 }
 }
